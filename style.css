@@ -1,3 +1,139 @@
 label{
     display : block;
 }
+:root{
+    /* --primary : #52cad4; */
+    --primary-lite : rgb(151, 237, 247);
+    --primary :rgb(229, 246, 248);
+    --secondary: #001524;
+}
+
+body {
+    background-color:var(--secondary);
+    color:var(--primary);
+     /* background: url('images/bg.jpg') ; */
+     background-size: 2000px 900px;
+     background-blend-mode: overlay;
+    
+}
+.container{
+    font-size:1.5rem;
+    align-self: center;
+    width: 80%;
+    height: 60%;
+    margin : 6% auto;
+    background-color:var(--secondary);
+    padding: 20px;
+    border-radius: 0.3rem;
+    color:var(--primary) ;
+    border : 1px solid var(--primary) ; 
+    /* position: absolute; */
+    /* box-shadow: 0.025rem 0.025rem 0.5rem var(--primary); */
+     
+}
+.right-side{
+    float :right;
+    width: 60%;
+    color : rgb(221, 244, 247);
+    font-size:5em;
+    padding: 4rem 0rem 4rem 6rem;
+    border-left: 1px solid var(--primary) ;
+    
+   /* position: relative; */
+}
+.submit-btn{
+    background-color:var(--primary) ;
+    padding : 8px;
+    border-radius: 5px;
+    border : 1px solid var(--primary) ;
+    margin : 1rem  4rem;
+    font-size: 1rem;
+    font-weight: bold;
+}
+input{
+    padding : 5px;
+    margin : 10px;
+    background-color: var(--secondary);
+    border : 1px solid var(--secoundary) ;
+    border-bottom: 1px solid var(--primary) ;
+    color : var(--primary);
+    font-weight : bold;
+    font-size: 1rem;
+}
+
+.input-field{
+    margin : 11% 5%;
+    padding-right: 2rem;
+}
+
+/* .container{
+    
+    float : left;
+   
+    border-radius: 5px;
+    margin: 3.5rem 1rem 10rem 2rem;
+   
+    } */
+
+    .emoji{
+        text-align: center;
+        margin: 2.5rem 8rem 0rem 8rem;
+       
+    }
+
+    img{
+        border: 0.1rem solid var(--primary) ;
+        border-radius:0.3rem ;
+    }
+  
+
+    .foot{
+        width: fit-content;
+        margin : 4% auto;
+        text-align: center;
+    }
+    .initem{
+    display: inline;
+    
+    font-size: 25px;
+    }
+    .item{
+        color: var(--secoundary);
+        padding:10px;
+    }
+    .made-stmt{
+        color:var(--secoundary);
+        padding:  0px 10px 10px 10px;
+        text-align: center;
+    }
+    .gmail-phone{
+        color:var(--primary);
+        font-size: 0px;
+      }
+    
+      
+    
+      @media screen and (max-width : 600px)
+      {
+        .gmail-laptop{
+            display: none;
+            padding: 0px;
+        }
+        
+        .gmail-phone{
+            font-size: 25px;
+            color:var(--secoundary);
+            padding: 2px;
+        }
+        .foot{
+        margin-top:35%;
+        }
+       .item-link{
+           margin-left: -20%;
+       }
+        .container{
+          margin-top: 20%;
+    
+        }
+    
+      }

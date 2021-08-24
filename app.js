@@ -12,25 +12,30 @@ function showOut(msg,index)
              {
             outPut.innerHTML=msg;
             outPut.style.color="green";
+            outPut.style.fontSize= "4rem";
+            
              emoji.innerHTML="<img src =\'https://media.giphy.com/media/xT0xex6lga2LBrjhHq/giphy.gif\'  width=\'250px\' height=\'200px\'>"
            
             break;
              }
          case 1:
             outPut.innerHTML=msg;
-            outPut.style.color="red";
+            outPut.style.color="rgb(230, 69, 69)";
+            outPut.style.fontSize= "4rem";
             emoji.innerHTML="<img src ='https://media.giphy.com/media/zvBuF2oYRErVS/giphy.gif\'  width=\'250px\' height=\'200px\'>"
             break;
             case 2:
                     outPut.innerHTML=msg;
-                    outPut.style.color="blue";
+                    outPut.style.color="rgb(229, 246, 248)";
+                    outPut.style.fontSize= "4rem";
                     emoji.innerHTML="<img src ='https://media.giphy.com/media/1iTnzFRFQwDpv3C8/giphy.gif\'  width=\'250px\' height=\'200px\'>"
                     break;
                     
          default:
             {
             outPut.innerText="please enter some valid input";
-            outPut.style.color="red";
+            outPut.style.color="rgb(230, 69, 69)";
+            outPut.style.fontSize= "6rem";
             
             break;
             }
@@ -76,6 +81,7 @@ function clickEvent(){
     var quant = Number(quantity.value);
     console.log(initial,current,quant);
     profitLossFinder(initial,quant,current);
+
 }
 
 
