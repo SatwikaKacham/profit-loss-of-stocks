@@ -34,11 +34,12 @@ body {
 .right-side{
     float :right;
     width: 60%;
-    height: 50%;
+    height: 80%;
     color : rgb(221, 244, 247);
-    font-size:8rem;
-    padding: 4rem 0rem 0rem 6rem;
-    border-left: 1px solid var(--primary) ;
+    font-size:5em;
+    /* padding: 4rem 0rem 0rem 6rem; */
+    padding : 64px 40px;
+    /* border-left: 1px solid var(--primary) ; */
     
    /* position: relative; */
 }
@@ -60,11 +61,13 @@ input{
     color : var(--primary);
     font-weight : bold;
     font-size: 1rem;
+    
 }
 
 .input-field{
     margin : 11% 5%;
     padding-right: 2rem;
+    border-right: 1px solid var(--primary) ;
 }
 
 /* .container{
