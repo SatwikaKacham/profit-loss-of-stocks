@@ -13,17 +13,18 @@ function showOut(msg,index)
              {
             outPut.innerHTML=msg;
         
-            outPut.style.fontSize= "4rem";
+            outPut.style.fontSize= "3.5rem";
             rightSide.style.backgroundColor="green";
             
              emoji.innerHTML="<img src =\'https://media.giphy.com/media/xT0xex6lga2LBrjhHq/giphy.gif\'  width=\'250px\' height=\'200px\'>"
+            
            
             break;
              }
          case 1:
             outPut.innerHTML=msg;
         
-            outPut.style.fontSize= "4rem";
+            outPut.style.fontSize= "3.5rem";
             rightSide.style.backgroundColor="rgb(230, 69, 69)";
             emoji.innerHTML="<img src ='https://media.giphy.com/media/zvBuF2oYRErVS/giphy.gif\'  width=\'250px\' height=\'200px\'>"
             break;
@@ -31,16 +32,17 @@ function showOut(msg,index)
                     outPut.innerHTML=msg;
                     // outPut.style.color="rgb(229, 246, 248)";
                     rightSide.style.backgroundColor="blue";
-                    outPut.style.fontSize= "4rem";
+                    outPut.style.fontSize= "3.5rem";
                     emoji.innerHTML="<img src ='https://media.giphy.com/media/1iTnzFRFQwDpv3C8/giphy.gif\'  width=\'250px\' height=\'200px\'>"
                     break;
                     
          default:
             {
-            outPut.innerText=" ⚠️Arey bhai input values nahi hai tho profit aur loss kaisa nikalega ";
+            outPut.innerText=" Arey bhai input values nahi hai tho profit aur loss kaisa nikalega! ";
             rightSide.style.backgroundColor="rgb(230, 69, 69)";
-            outPut.style.fontSize= "4rem";
-            emoji.innerHTML="<img src ='https://giphy.com/gifs/memecandy-U72OPYcmYDadBeRYaZ'  width=\'250px\' height=\'200px\'>"
+            outPut.style.fontSize= "3.5rem";
+        
+            emoji.innerHTML='<img src="https://media.giphy.com/media/U72OPYcmYDadBeRYaZ/giphy.gif\" width=\"250px\" height=\'200px\' > '
             
             break;
             }

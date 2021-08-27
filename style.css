@@ -38,7 +38,7 @@ body {
     color : rgb(221, 244, 247);
     font-size:5em;
     /* padding: 4rem 0rem 0rem 6rem; */
-    padding : 64px 40px;
+    /* padding : 64px 40px; */
     /* border-left: 1px solid var(--primary) ; */
     
    /* position: relative; */
@@ -67,17 +67,8 @@ input{
 .input-field{
     margin : 11% 5%;
     padding-right: 2rem;
-    border-right: 1px solid var(--primary) ;
+    /* border-left: 1px solid var(--primary) ; */
 }
-
-/* .container{
-    
-    float : left;
-   
-    border-radius: 5px;
-    margin: 3.5rem 1rem 10rem 2rem;
-   
-    } */
 
     .emoji{
         text-align: center;
